@@ -6,7 +6,7 @@ description: |
   Proton Mail desktop application built with Electron.
   Secure email client from ProtonMail.
 
-base: core22
+base: core24
 grade: stable
 confinement: strict
 compression: lzo
