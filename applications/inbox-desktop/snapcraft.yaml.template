@@ -40,13 +40,8 @@ apps:
       TMPDIR: $XDG_RUNTIME_DIR
       DISABLE_WAYLAND: 1
     plugs:
-      - desktop
-      - desktop-legacy
-      - wayland
       - unity7
-      - x11
       - browser-support
-      - gsettings
       - home
       - removable-media
       - hardware-observe
