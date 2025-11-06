@@ -11,6 +11,9 @@ grade: stable
 confinement: strict
 compression: lzo
 
+platforms:
+  amd64:
+
 parts:
   launcher:
     plugin: dump
