@@ -27,8 +27,6 @@ parts:
     plugin: dump
     source-type: deb
     source: $APP_DEB_PATH
-    override-build: |
-      cp -a . $CRAFT_PART_INSTALL/
     prime:
       - -usr/lib/proton-mail/chrome-sandbox
 
